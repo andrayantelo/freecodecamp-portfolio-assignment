@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Practice Portfolio Page Using Bootstrap</title>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+<div id="headerContainer">
+<div class="container-fluid">
+<div class="row">
+<div class="col-md-4 col-md-offset-8">
+<nav class="navbar navbar-default">
+    <div class="navbar-header">
+ <!-- This button creates that menu button with the 3 lines that you see when you go on mobile (when there isn't enough screen space). It is collapsed because you have to press it to open it-->
+      <button type="button" class="navbar-toggle collapsed" data-target="#myPortfolioNavBar" data-toggle="collapse" aria-expanded="false">
+        <span class="sr-only">Toggle Navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">Immediate Livings</a>
+    </div> <!-- end of navbar header div -->
+   
+   <!-- now we collect everything that will be inside that menu button we just created (for the navbar) -->
+    <div class="collapse navbar-collapse navbar-right" id="#myPortfolioNavBar">
+      <ul class="nav navbar-nav navbar-light">
+        <li class="active"><a href="#"> About <span class="sr-only">(current)</span></a></li>
+        <li><a href="#">Portfolio</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </div> <!-- end of div collapse navbar --> 
+</nav> <!-- end of nav tag -->
+</div> <!-- end of col div with nav in it -->
+</div> <!-- end of row with navbar in it -->
+  </div> <!-- end of container div -->
+</div> <!-- end of header container --> 
+
+    <!-- beginning of about section of page -->
+<section id="aboutSection">
+    <div id="aboutDiv" class="container-fluid">
+      <div class="row">
+        <div class="col-md-8">
+          <p id="aboutMe">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla non nisl ultrices magna euismod iaculis. Mauris non ligula id quam rutrum elementum et non purus. Proin et blandit arcu. Curabitur ut turpis luctus, laoreet dui ac, ullamcorper mi. Quisque cursus euismod tristique. Cras quis nisl id leo vehicula cursus non ac ipsum. Vestibulum nulla tortor, ultrices a massa vitae, tempus imperdiet justo. Nullam eu hendrerit tortor, a vestibulum odio. Suspendisse eu convallis ante. Curabitur ornare eros non tempor volutpat.   </p>
+        </div> <!-- end of about me column -->
+        <div class="col-md-4">
+          <figure class="figure">
+            <img src="http://cdn-ugc.mamaslatinas.com/gen/constrain/500/500/80/2014/10/15/16/86/kw/porixfu24o6ghc.jpg" class="figure-img img-fluid img-circle"/>
+            <figcaption class="figure-caption">
+              Me.
+            </figcaption>
+          </figure>
+          
+        </div><!-- end of photo column -->
+      </div><!-- end of row -->
+    </div><!-- end of aboutDiv -->
+</section> <!-- end of about section --> 
+
+
+<section id="portfolioSection">
+    <div id="portfolioDiv" class="container-fluid">
+      <div class="row" id="portfolioRow">
+        
+      <h1 id="portfolioHeader">Portfolio</h1>
+       
+      </div><!-- end of row div --> 
+      
+       <div id="portfolioPicContainer"></div>
+      
+    </div> <!-- end of portfolioDiv container -->
+  
+ 
+</section> <!-- end of portfolio section -->
+
+<!-- cloud section separater begins -->
+<svg id="clouds" xlmns="http://www.w3org/2000/svg"
+  width="100%" height="100" viewbox="0, 0, 100, 100" preserveAspectRatio="none"><path d="M-5 100 Q 0 20 5 100 Z
+         M0 100 Q 5 0 10 100
+         M5 100 Q 10 30 15 100
+         M10 100 Q 15 10 20 100
+         M15 100 Q 20 30 25 100
+         M20 100 Q 25 -10 30 100
+         M25 100 Q 30 10 35 100
+         M30 100 Q 35 30 40 100
+         M35 100 Q 40 10 45 100
+         M40 100 Q 45 50 50 100
+         M45 100 Q 50 20 55 100
+         M50 100 Q 55 40 60 100
+         M55 100 Q 60 60 65 100
+         M60 100 Q 65 50 70 100
+         M65 100 Q 70 20 75 100
+         M70 100 Q 75 45 80 100
+         M75 100 Q 80 30 85 100
+         M80 100 Q 85 20 90 100
+         M85 100 Q 90 50 95 100
+         M90 100 Q 95 25 100 100
+         M95 100 Q 100 15 105 100 Z"></path>
+  <svg>
+<!-- cloud section separater ends -->
+    
+    <div id="contactSection"></div>
+  </div>
+
+  </div>
+</div>
+</body>
+</html>

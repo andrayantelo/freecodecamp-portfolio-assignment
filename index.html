@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Practice Portfolio Page Using Bootstrap</title>
+    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    
+    <link rel="stylesheet" href="style.css" />
+    <script type = "text/javascript" src="portfolio.js"></script>
+    
+    
+</head>
+
+<body>
+
+<div id="headerContainer">
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container-fluid">
+                
+            <div class="navbar-header">
+ <!-- This button creates that menu button with the 3 lines that you see when you go on mobile (when there isn't enough screen space). It is collapsed because you have to press it to open it-->
+      <button type="button" class="navbar-toggle collapsed" data-target="#myPortfolioNavbar" data-toggle="collapse" aria-expanded="false">
+        <span class="sr-only">Toggle Navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">Lorem Ipsum</a>
+            </div> <!-- end of navbar header div -->
+   
+   <!-- now we collect everything that will be inside that menu button we just created (for the navbar) -->
+    <div>
+        <div class="collapse navbar-collapse navbar-right" id="#myPortfolioNavbar">
+            <ul class="nav navbar-nav">
+                <li class="navbarButton" id="aboutButton" ><a href="#aboutSection"> About <span class="sr-only">(current)</span></a></li>
+                <li class="navbarButton" id="portfolioButton"><a href="#portfolioSection">Portfolio</a></li>
+                <li class="navbarButton" id="contactButton"><a href="#contactSection">Contact</a></li>
+            </ul>
+        </div> <!-- end of div collapse navbar --> 
+    </div>
+</div> <!-- end of container div -->
+</nav> <!-- end of nav tag -->
+</div> <!-- end of header container --> 
+
+<!-- beginning of about section of page -->
+<div id="contentWrapper">
+    
+<section id="aboutSection">
+    
+    <div class="container-fluid">
+      <div class="row">
+        <div id="aboutColumn" class="col-xs-12">
+            
+          
+          <figure id="figureWrapper" class="pull-right">
+              <img src="http://cdn-ugc.mamaslatinas.com/gen/constrain/500/500/80/2014/10/15/16/86/kw/porixfu24o6ghc.jpg" id="headshot" class="img-circle" />
+          </figure>
+          <p id="aboutMeText">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla non nisl ultrices magna euismod iaculis. 
+          Mauris non ligula id quam rutrum elementum et non purus. Proin et blandit arcu. Curabitur ut turpis luctus, laoreet dui ac, 
+          ullamcorper mi. Quisque cursus euismod tristique. Cras quis nisl id leo vehicula cursus non ac ipsum. Vestibulum nulla tortor, 
+          ultrices a massa vitae, tempus imperdiet justo. Nullam eu hendrerit tortor, a vestibulum odio. Suspendisse eu convallis ante. 
+          Curabitur ornare eros non tempor volutpat. </p>  
+            
+          
+        </div> <!-- end of aboutColumn -->
+          
+        
+      </div><!-- end of row -->
+   </div> <!-- end of container div -->
+</section> <!-- end of about section --> 
+
+
+<section id="portfolioSection">
+    <div id="portfolioDiv" class="container-fluid">
+      <div class="row" id="portfolioRow">
+        <div class="col-xs-12"> 
+         <h1 id="portfolioHeader">Portfolio</h1>
+        
+       
+        <div id="sectionSeparator"></div> <!-- child of portfolioRow -->
+        </div>
+      </div> <!-- end of row div --> 
+      
+      
+      <div class="row" id="portfolioPicRow">
+        <div class="col-xs-4 col-xs-offset-1" id="sunflowerColumn">
+            <figure class="figure">
+                <img class="figure-img img-fluid img-rounded" id="sunflowerPic" src="http://blackthumbgardener.com/wp-content/uploads/2014/04/Sunflower-Field.jpg"/>
+            </figure> 
+        </div> <!-- end of sunflowerColumn-->
+        <div class="col-xs-4 col-xs-offset-2" id="disneyColumn">
+           <figure class="figure">
+                <img class="figure-img img-fluid img-rounded" id="disneyPic" src="https://g.foolcdn.com/editorial/images/205639/disnight_large.jpg"/>
+            </figure> 
+        </div>
+      </div> <!-- end of portfolioPicRow -->
+      
+      <div class="row" id="portfolioWebsites">
+          <div class="col-xs-4 col-xs-offset-1" id="websiteOne">
+            <figure class="figure">
+                  <img class="figure-img img-fluid img-rounded" id="websitePic" src="https://www.corebyte.nl/media/foto.jpg"/>
+              </figure> 
+          </div>
+          <div class="col-xs-4 col-xs-offset-2" id="websiteTwo">
+               <figure class="figure">
+                  <img class="figure-img img-fluid img-rounded" id="webPic" src="http://www.c1-partners.com/wp-content/uploads/2015/04/website-builder.jpg"/>
+              </figure> 
+          </div>
+      </div>
+      
+      <div class="row" id="portfolioWebsites">
+          <div class="col-xs-4 col-xs-offset-1" id="websiteOne">
+            <figure class="figure">
+                  <img class="figure-img img-fluid img-rounded" id="websitePic" src="https://www.corebyte.nl/media/foto.jpg"/>
+              </figure> 
+          </div>
+          <div class="col-xs-4 col-xs-offset-2" id="websiteTwo">
+               <figure class="figure">
+                  <img class="figure-img img-fluid img-rounded" id="webPic" src="http://www.c1-partners.com/wp-content/uploads/2015/04/website-builder.jpg"/>
+              </figure> 
+          </div>
+      </div>
+    
+    </div> <!-- end of portfolioDiv container -->
+</section> <!-- end of portfolio section -->
+
+<!-- cloud section separater begins -->
+<svg id="clouds" xlmns="http://www.w3org/2000/svg"
+  width="100%" height="100" viewbox="0, 0, 100, 100" preserveAspectRatio="none"><path d="M-5 100 Q 0 20 5 100 Z
+         M0 100 Q 5 0 10 100
+         M5 100 Q 10 30 15 100
+         M10 100 Q 15 10 20 100
+         M15 100 Q 20 30 25 100
+         M20 100 Q 25 -10 30 100
+         M25 100 Q 30 10 35 100
+         M30 100 Q 35 30 40 100
+         M35 100 Q 40 10 45 100
+         M40 100 Q 45 50 50 100
+         M45 100 Q 50 20 55 100
+         M50 100 Q 55 40 60 100
+         M55 100 Q 60 60 65 100
+         M60 100 Q 65 50 70 100
+         M65 100 Q 70 20 75 100
+         M70 100 Q 75 45 80 100
+         M75 100 Q 80 30 85 100
+         M80 100 Q 85 20 90 100
+         M85 100 Q 90 50 95 100
+         M90 100 Q 95 25 100 100
+         M95 100 Q 100 15 105 100 Z"></path>
+  <svg>
+<!-- cloud section separater ends -->
+
+
+    
+<div id="contactSection">
+    <div id="contactContainer" class="contactContainer">
+        <div class="row" id="contactHeader">
+            <h1>Contact Me</h1>
+             <div id="sectionSeparator2"></div> 
+        </div>
+        
+        <div class="row" id="contactInfo">
+          <div class="col-xs-8">
+              
+          </div>
+          
+        </div>
+    </div>
+</div>
+</div> <!-- end of content wrapper -->
+
+<div>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-xs-4 col-xs-offset-8">
+                <div id="socialMedia">
+                    <i class="fa fa-facebook-official fa-4x" aria-hidden="true" id="facebook"></i>
+                    <i class="fa fa-instagram fa-4x" aria-hidden="true" id="instagram"></i>
+                    <i class="fa fa-github fa-4x" aria-hidden="true" id="github"></i>
+                    <i class="fa fa-youtube-play fa-4x" aria-hidden="true" id="youtube"></i>
+                </div>
+            </div> <!-- end of col div -->
+        </div> <!-- end of row div -->
+    </div> <!-- end of container div -->
+</div>
+
+<!-- NOTE NEXT TIME WORK ON: PUTTING CONTACT ICONS THAT LINK TO SOCIAL MEDIA WHATEVER, 
+add email form to email messages-->
+
+
+</body>
+</html>
