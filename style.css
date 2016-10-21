@@ -139,14 +139,13 @@ section::after {
     box-shadow: 0 30px 0 #acb8c8;
 }
 
-#facebook {
-    color: #3b5998;
-}
-
-#youtube {
-    color: #e52d27;
-}
-
 #socialMedia {
-    padding: 50px;
+    padding: 50px 0px 50px 0px;
+    color: #666666;
 }
+
+.form-group {
+    width: 50%;
+    
+}
+
