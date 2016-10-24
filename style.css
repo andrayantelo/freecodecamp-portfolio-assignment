@@ -1,7 +1,7 @@
 
 body{
   font-family: 'Catamaran', sans-serif;
-  padding-top: 100px;
+  padding-top: 50px;
   background: #eee;
   position: relative;
   padding-bottom: 60px;
@@ -41,14 +41,14 @@ body{
 }
 
 #aboutMeText {
-    margin: 100px 5% 100px 5%;
+    margin: 120px 5% 100px 5%;
     width: 800px;
-    font-size: 130%;
+    font-size: 120%;
 }
 
 
-#aboutSection {
-  background: #d7e6fa;
+#aboutSection, #portfolioSection, #clouds {
+  background: #dfe9ec;
 }
 
 
@@ -57,17 +57,11 @@ body{
   padding-bottom: 20px;
 }
 
-#portfolioSection {
-  background: #faebd7;
-}
 
 #portfolioHeader {
   text-align: center;
 }
 
-#clouds {
-  background: #faebd7;
-}
 
 #clouds path {
   fill: white;
@@ -129,7 +123,7 @@ section::after {
 
 #contactSection {
     background: white;
-    margin-top: -5px;    
+    margin-top: -10px;    
 }
 
 #contactHeader {
@@ -167,19 +161,24 @@ section::after {
     
 }
 
-.form-control {
-    width: 100%;
-}
 
 #sendMessageForm {
-    padding-top: 2px;
+    padding-top: 20px;
+    padding-bottom: 40px;
     width: 400px;
-    display: block;
+}
+
+#formSeparator {
+    background-color: #acb8c8;
+    height: 2px;
+    width: 215px;
+    margin-top: 40px;
+    margin-bottom:40px;
 }
 
 #contactText{
     width: 800px;
-    padding: 70px 40px 50px 0px; 
+    padding: 75px 40px 50px 0px; 
 }
 
 .smlink:link{
