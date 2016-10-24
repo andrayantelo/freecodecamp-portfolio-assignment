@@ -175,7 +175,7 @@
         <div class="row" id="contactInfo">
           <div class="col-xs-12">
             
-            <form id="sendMessageForm">
+            <form id="sendMessageForm" class="pull-left">
               <div class="form-group">
                 <label>Name
                   <input class="form-control" type="text" name="name" placeholder="Name">
@@ -215,23 +215,33 @@
 </div> <!-- end of content wrapper -->
 
 <div>
-    <div class="container-fluid">
+    
+    <div class="container-fluid" id="socialMediaContainer">
         <div class="row">
-            <div class="col-xs-4 col-xs-offset-8">
-                <div id="socialMedia">
-                    <i class="fa fa-facebook-official fa-4x" aria-hidden="true" id="facebook"></i>
-                    <i class="fa fa-instagram fa-4x" aria-hidden="true" id="instagram"></i>
-                    <i class="fa fa-github fa-4x" aria-hidden="true" id="github"></i>
-                    <i class="fa fa-youtube-play fa-4x" aria-hidden="true" id="youtube"></i>
+            <div class="col-xs-4 col-xs-offset-7">
+                <div id="socialMedia" class="pull-right">
+                    <p id="socialMediaText">Around the Web</p>
+                    <a href="http://www.facebook.com" class="smlink"><i class="fa fa-facebook-official fa-4x" aria-hidden="true" id="facebook"></i></a>
+                    <a href="http://www.instagram.com" class="smlink"><i class="fa fa-instagram fa-4x" aria-hidden="true" id="instagram"></i></a>
+                    <a href="http://www.github.com" class="smlink"><i class="fa fa-github fa-4x" aria-hidden="true" id="github"></i></a>
+                    <a href="http://www.youtube.com" class="smlink"><i class="fa fa-youtube-play fa-4x" aria-hidden="true" id="youtube"></i></a>
                 </div>
             </div> <!-- end of col div -->
         </div> <!-- end of row div -->
     </div> <!-- end of container div -->
+
+
+<div id="footer">
+    <div class="container">
+        <p id="footerText">Site built by Lorem Ipsum</p>
+    </div>
 </div>
 
-<!-- NOTE NEXT TIME WORK ON: PUTTING CONTACT ICONS THAT LINK TO SOCIAL MEDIA WHATEVER, 
-add email form to email messages-->
+</div>
 
+<!-- NOTE NEXT TIME WORK ON: STYLE SOCIAL MEDIA BUTTONS, 
+add email form to email messages MODIFY FORM WITH BOOTSTRAP, DO IT
+THE BOOTSTRAP WAY-->
 
 </body>
 </html>
