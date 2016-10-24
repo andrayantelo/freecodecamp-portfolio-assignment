@@ -156,17 +156,12 @@ section::after {
     /*color: #666666;*/
 }
 
-.form-group {
-    width: 150%;
-    
-}
-
-
 #sendMessageForm {
     padding-top: 20px;
     padding-bottom: 40px;
     width: 400px;
 }
+
 
 #formSeparator {
     background-color: #acb8c8;
