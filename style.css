@@ -137,6 +137,7 @@ section::after {
     margin-top: 75px;
 }
 
+
 #sectionSeparator2{
     display: block;
     position: absolute;
@@ -159,7 +160,7 @@ section::after {
 #sendMessageForm {
     padding-top: 20px;
     padding-bottom: 40px;
-    width: 400px;
+   
 }
 
 
@@ -197,4 +198,8 @@ section::after {
     color: #666666;
     text-align: center;
     font-weight: bold;
+}
+
+.hiddenLabel {
+    visibility: hidden;
 }

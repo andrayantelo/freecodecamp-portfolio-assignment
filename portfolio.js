@@ -22,21 +22,17 @@ $(document).ready(function() {
     
     $('#nameInput').keyup(function() {
         
-        $('#nameInput').wrap('<label for="nameInput">Name</label>');
-        $('#nameInput').unbind('keyup');
+        $('#nameLabel').removeClass('hiddenLabel');
     });
     
     $('#emailInput').keyup(function() {
-        $('#emailInput').wrap('<label for="emailInput">Email Address</label>');
-        $('#emailInput').unbind('keyup');
+        $('#emailLabel').removeClass('hiddenLabel');
     });
     $('#phoneInput').keyup(function() {
-        $('#phoneInput').wrap('<label for="phoneInput">Phone Number</label>');
-        $('#phoneInput').unbind('keyup');
+        $('#phoneLabel').removeClass('hiddenLabel');
     });
     $('#messageInput').keyup(function() {
-        $('#messageInput').wrap('<label for="messageInput">Message</label>');
-        $('#messageInput').unbind('keyup');
+        $('#messageLabel').removeClass('hiddenLabel');
     });
   
   
