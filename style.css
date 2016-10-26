@@ -86,7 +86,7 @@ section::after {
 
 
 #portfolioHeader {
-    color: #c1a075;
+    color: #666666;
 }
 
 
@@ -100,8 +100,8 @@ section::after {
     left: 50%; 
     -webkit-transform: translateX(-50%);  
     transform: translateX(-50%); 
-    background: #c1a075;
-    box-shadow: 0 30px 0 #c1a075;
+    background: #666666;
+    box-shadow: 0 30px #666666;
 }
 
 #sunflowerPic, #disneyPic, #websitePic, #webPic{
@@ -173,7 +173,7 @@ section::after {
 }
 
 #contactText{
-    width: 800px;
+    width: 600px;
     padding: 75px 40px 50px 0px; 
 }
 
@@ -184,10 +184,12 @@ section::after {
 
 .smlink:visited{
     text-decoration: none;
+    color: #acb8c8;
 }
 
 .smlink:hover {
     text-decoration: none;
+    color: white;
 }
 
 .smlink:active{
